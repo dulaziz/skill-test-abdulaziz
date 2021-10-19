@@ -1,0 +1,321 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: roboto;
+	/*background-color: #777777;*/
+}
+.max-width{
+	max-width: 1000px;
+	padding: 0 80px;
+	margin: auto;
+}
+
+/*Banner*/
+.container{
+	height: 100vh;
+	background: url("img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+	text-align: center;
+}
+/*Alert*/
+.alert img{
+	float: left;
+	width: 40px;
+	margin-top: -5px;
+	margin-right: 10px;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+}
+.alert a{
+	text-decoration: none;
+	color: #fff;
+}
+.banner-title{
+	align-items: center;
+	position: absolute;
+	top: 20%;
+	z-index: 1;
+	background-color: #777777;
+	width: 100%;
+	padding: 20px;
+	color: #fff;
+}
+.banner-title p{
+	font-size: 12px;
+	margin-top: 25px;
+}
+.item{
+	color: #fff;
+	margin-top: 60vh;
+}
+/*Chrome*/
+.chrome{
+	background-color: rgba(235, 186, 74, 0.3);
+}
+.chrome .item{
+	float: right;
+	margin-right: 20px;
+}
+.chrome .item .icon{
+	width: 100px;
+	margin: auto;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+	margin-bottom: 13px;
+}
+.chrome .item .title{
+	text-transform: uppercase;
+}
+/*Firefox*/
+.firefox{
+	background-color: rgba(232, 160, 62, 0.3);
+}
+.firefox .item .icon{
+	width: 100px;
+	margin: auto;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+	margin-bottom: 15px;
+}
+.firefox .item .title{
+	text-transform: uppercase;
+}
+/*Edge*/
+.edge{
+	background-color: rgba(90, 198, 250, 0.3);
+}
+.edge .item .icon{
+	width: 100px;
+	margin: auto;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+	margin-bottom: 15px;
+}
+.edge .item .title{
+	text-transform: uppercase;
+}
+/*Safari*/
+.safari{
+	background-color: rgba(69, 156, 227, 0.3);
+}
+.safari .item .icon{
+	width: 100px;
+	margin: auto;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+	margin-bottom: 15px;
+}
+.safari .item .title{
+	text-transform: uppercase;
+}
+/*Opera*/
+.opera .item{
+	float: left;
+	margin-left: 20px;
+}
+.opera{
+	background-color: rgba(227, 99, 77, 0.3);
+}
+.opera .item .icon{
+	width: 100px;
+	margin: auto;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+	margin-bottom: 13px;
+}
+.opera .item .title{
+	text-transform: uppercase;
+}
+/*Btn*/
+button{
+	margin-top: 15px;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 12px 20px;
+	border: none;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	border: 2px solid lightgrey;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+button:hover{
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+/*Content*/
+.content{
+	max-width: 300px;
+	margin: 10px auto 10px auto;
+	border: 2px solid #111;
+	height: 80vh;
+	background: url("img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;
+}
+/*Alert*/
+.cnt-alrt{
+	background-color: #777777;
+	padding: 20px;
+}
+.cnt-alrt img{
+	float: left;
+	width: 30px;
+	margin-right: 10px;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+}
+.cnt-alrt a{
+	text-decoration: none;
+	color: #fff;
+}
+.cnt-alrt p{
+	color: #fff;
+	margin-top: 10px;
+	font-size: 10px;
+	text-align: justify;
+}
+/*Chrome*/
+.cnt-chrome{
+	background-color: rgba(162, 104, 57, 0.3);
+	padding: 20px;
+}
+.cnt-chrome div{
+	display: inline-block;
+}
+.cnt-chrome .title {
+	color: #fff;
+	text-transform: uppercase;
+	margin-inline-end: 10%;
+}
+.cnt-chrome img{
+	width: 30px;
+	margin-right: 15px;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.cnt-chrome img:hover{
+	filter: invert(0%) sepia(78%) saturate(7438%) hue-rotate(260deg) brightness(103%) contrast(88%);
+}
+.cnt-chrome h6{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+}
+/*Firefox*/
+.cnt-mozila{
+	background-color: rgba(232, 160, 62, 0.3);
+	padding: 20px;
+}
+.cnt-mozila div{
+	display: inline-block;
+}
+.cnt-mozila .title {
+	color: #fff;
+	text-transform: uppercase;
+	margin-inline-end: 9%;
+}
+.cnt-mozila img{
+	width: 30px;
+	margin-right: 15px;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.cnt-mozila img:hover{
+	filter: invert(0%) sepia(78%) saturate(7438%) hue-rotate(260deg) brightness(103%) contrast(88%);
+}
+.cnt-mozila h6{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+}
+/*Edge*/
+.cnt-edge{
+	background-color: rgba(90, 198, 250, 0.3);
+	padding: 20px;
+}
+.cnt-edge div{
+	display: inline-block;
+}
+.cnt-edge .title {
+	color: #fff;
+	text-transform: uppercase;
+	margin-inline-end: 9%;
+}
+.cnt-edge img{
+	width: 30px;
+	margin-right: 15px;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.cnt-edge img:hover{
+	filter: invert(0%) sepia(78%) saturate(7438%) hue-rotate(260deg) brightness(103%) contrast(88%);
+}
+.cnt-edge h6{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+}
+/*Safari*/
+.cnt-safari{
+	background-color: rgba(69, 156, 227, 0.3);
+	padding: 20px;
+}
+.cnt-safari div{
+	display: inline-block;
+}
+.cnt-safari .title {
+	color: #fff;
+	text-transform: uppercase;
+	margin-inline-end: 19%;
+}
+.cnt-safari img{
+	width: 30px;
+	margin-right: 15px;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.cnt-safari img:hover{
+	filter: invert(0%) sepia(78%) saturate(7438%) hue-rotate(260deg) brightness(103%) contrast(88%);
+}
+.cnt-safari h6{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+}
+/*Opera*/
+.cnt-opera{
+	background-color: rgba(227, 99, 77, 0.3);
+	padding: 20px;
+}
+.cnt-opera div{
+	display: inline-block;
+}
+.cnt-opera .title {
+	color: #fff;
+	text-transform: uppercase;
+	margin-inline-end: 10%;
+}
+.cnt-opera img{
+	width: 30px;
+	margin-right: 15px;
+	filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(352deg) brightness(102%) contrast(103%);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.cnt-opera img:hover{
+	filter: invert(0%) sepia(78%) saturate(7438%) hue-rotate(260deg) brightness(103%) contrast(88%);
+}
+.cnt-opera h6{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+}
